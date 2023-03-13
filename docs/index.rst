@@ -8,9 +8,9 @@ Welcome to sphinx_project's documentation!
 
 .. toctree::
    :maxdepth: 2
-   
-   my_test
+   :caption: Contents: 
 
+   my_test
 
 
 

@@ -27,12 +27,12 @@ extensions = [
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-#html_theme = 'alabaster'
+# html_theme = 'alabaster'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_css_files = ['css/custom.css']
-html_logo = '_static/logo.png'
-html_favicon = "_static/favicon.ico"
+# html_logo = '_static/logo.png'
+# html_favicon = "_static/favicon.ico"
 
 html_theme_options = {
     'logo_only': False,
@@ -47,3 +47,8 @@ html_theme_options = {
     'includehidden': True,  # displays toctree that are hidden
     'titles_only': False  # False so page subheadings are in the nav.
 }
+
+import os
+import sys
+
+# sys.path.insert(0, os.path.abspath('..'))
