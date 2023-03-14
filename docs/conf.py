@@ -50,6 +50,12 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # html_theme = 'alabaster'
 html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+    'logo_only': True,
+    'navigation_depth': 5,
+}
+html_context = {}
+
 # html_static_path = ['_static']
 # html_css_files = ['css/custom.css']
 # html_logo = '_static/logo.png'
