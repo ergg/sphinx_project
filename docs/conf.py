@@ -6,6 +6,15 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import os
+import sys
+import re
+sys.path.insert(0, os.path.abspath('..'))
+
+from sphinx_rtd_theme import __version__ as theme_version
+from sphinx_rtd_theme import __version_full__ as theme_version_full
+from sphinx.locale import _
+
 project = 'sphinx_project'
 copyright = '2023, Erich Geiger'
 author = 'Erich Geiger'
@@ -58,8 +67,3 @@ html_theme_options = {
     'includehidden': True,  # displays toctree that are hidden
     'titles_only': False  # False so page subheadings are in the nav.
 }
-
-import os
-import sys
-sys.path.insert(0, os.path.abspath('../'))
-
