@@ -6,6 +6,7 @@ Welcome to sphinx_project's documentation!
    :caption: Contents:
 
    my_text
+   itesys
 
 Indices and tables
 ==================
