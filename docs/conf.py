@@ -50,6 +50,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # html_theme = 'alabaster'
 html_theme = 'sphinx_rtd_theme'
+RTD_NEW_THEME = True
 html_theme_options = {
     'logo_only': True,
     'navigation_depth': 5,
