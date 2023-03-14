@@ -26,8 +26,11 @@ extensions = [
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+    'rtd': ('https://docs.readthedocs.io/en/stable/', None),
+    'rtd-dev': ('https://dev.readthedocs.io/en/stable/', None),
 }
-intersphinx_disabled_domains = ['std']
+
+# intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -38,7 +41,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # html_theme = 'alabaster'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-html_css_files = ['css/custom.css']
+# html_css_files = ['css/custom.css']
 # html_logo = '_static/logo.png'
 # html_favicon = "_static/favicon.ico"
 
