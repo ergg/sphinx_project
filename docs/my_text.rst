@@ -41,7 +41,7 @@ Bullet List:
 Und hier nun eine url:
 .. _http://www.ibm.com
 
-.. oder das: 
+oder das: 
 
    *Hervorhebung*
 
