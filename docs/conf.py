@@ -76,6 +76,11 @@ html_theme_options = {
     'titles_only': False  # False so page subheadings are in the nav.
 }
 
+# Grouping the document tree into LaTeX files. List of tuples# (source start file, target name, title, author, documentclass [howto/manual]).
+latex_documents = [
+ ('index', 'yourdoc.tex', u'DocName', u'YourName', 'manual'),
+]
+
 fh = open('latex_preamble.tex', 'r+')
 PREAMBLE = fh.read()
 fh.close()
