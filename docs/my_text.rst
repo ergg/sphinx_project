@@ -50,7 +50,18 @@ oder das:
 .. highlights::
 
         Der Text ist hervorgehoben komplett ?
+
         Noch mehr text !!!
 
 .. _reStructuredText: https://docutils.sourceforge.io/rst.html
+
+.. compound::
+
+   The 'rm' command is very dangerous.  If you are logged
+   in as root and enter ::
+
+       cd /
+       rm -rf *
+
+   you will erase the entire contents of your file system.
 
