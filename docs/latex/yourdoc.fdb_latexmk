@@ -1,0 +1,18 @@
+# Fdb version 4
+["pdflatex"] 1678916343 "yourdoc.tex" "yourdoc.pdf" "yourdoc" 1678916351 2
+  "/home/erich/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1678915278 1343369 ca315099ce87730e1f5378ff82217e09 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty" 1661385875 5050 0d3b77275060ca09a40635b830c3c904 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/report.cls" 1661385875 23204 74c91ecbcc47161218f25d9d0651c0f7 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1661385875 8449 a72d5d4e612221b46000c3d71724e0ef ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty" 1661385875 2821 2c0928feafd5527387e29a1af774d030 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty" 1614638310 230839 177eac084bda18ae827a77792a17292e ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1661385786 40136 b05acc85e8425979e52682d98a2bcacf ""
+  "cmap.sty" 0 -1 0 ""
+  "sphinxmanual.cls" 1678786343 4241 7b0d7a37df7b5715fb0dbd585c52ecdb ""
+  "yourdoc.aux" 1678916343 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "yourdoc.tex" 1678915437 12275 d4fd11fb367b6a371200dd2e0ee7ef41 ""
+  (generated)
+  "yourdoc.aux"
+  "yourdoc.log"
+  "yourdoc.pdf"
+  (rewritten before read)
