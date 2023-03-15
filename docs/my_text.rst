@@ -47,7 +47,7 @@ oder das:
 
    **strong Hervorhebung**
 
-        .. class="highlights"
+        .. highlights::
            Der Text ist hervorgehoben
            komplett ?
 
