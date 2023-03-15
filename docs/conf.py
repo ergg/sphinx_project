@@ -75,3 +75,11 @@ html_theme_options = {
     'includehidden': True,  # displays toctree that are hidden
     'titles_only': False  # False so page subheadings are in the nav.
 }
+
+fh = open('latex_preamble.tex', 'r+')
+PREAMBLE = fh.read()
+fh.close()
+latex_elements = {
+# Additional stuff for the LaTeX preamble.
+'preamble': PREAMBLE,
+}
