@@ -24,7 +24,9 @@ Heading
 
 Bullet List:
         * Chapter 1
+
           - Unterkapitel 1
+
           - Unterkapitel 2
 
 .. code-block:: python
