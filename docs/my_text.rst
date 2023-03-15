@@ -48,9 +48,7 @@ oder das:
    **strong Hervorhebung**
 
 .. highlights::
-
         Der Text ist hervorgehoben komplett ?
-
         Noch mehr text !!!
 
 .. _reStructuredText: https://docutils.sourceforge.io/rst.html
@@ -64,4 +62,9 @@ oder das:
        rm -rf *
 
    you will erase the entire contents of your file system.
+
+.. note::
+        Beware ot the cat !
+        or the Dog ?
+
 
