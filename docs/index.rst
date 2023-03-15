@@ -1,12 +1,25 @@
 Welcome to sphinx_project's documentation!
 ==========================================
+.. note::
+              Anleitung für Tamara zur Zeiterfassung 
+              von dem Zolligerheim Arbeitstuden.
+
+Hier die Vorbedinungen die erfüllt sein müssen::
+
+        PC "fujitsu" einschalten (power ON)
+
+
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :glob:
+   :numbered:
+   :caption: Chapters:
 
-   Einleitung                
-   my_text
+   self
+   intro*        
+   install                
+   support
 
 
 Indices and tables
