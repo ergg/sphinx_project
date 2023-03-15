@@ -40,3 +40,16 @@ Bullet List:
 
 Und hier nun eine url:
 .. _http://www.ibm.com
+
+.. oder das: 
+
+   *Hervorhebung*
+
+   **strong Hervorhebung**
+
+        .. class="highlights"
+           Der Text ist hervorgehoben
+           komplett ?
+
+.. _reStructuredText: https://docutils.sourceforge.io/rst.html
+

@@ -5,7 +5,9 @@ Welcome to sphinx_project's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   Einleitung                
    my_text
+
 
 Indices and tables
 ==================
