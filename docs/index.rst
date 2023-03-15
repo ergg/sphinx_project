@@ -12,6 +12,7 @@ Hier die Vorbedinungen die erfüllt sein müssen::
 
 .. toctree::
    :maxdepth: 2
+   :glob:
    :numbered:
    :caption: Chapters:
 

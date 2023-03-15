@@ -80,11 +80,3 @@ html_theme_options = {
 latex_documents = [
  ('index', 'yourdoc.tex', u'DocName', u'YourName', 'manual'),
 ]
-
-fh = open('latex_preamble.tex', 'r+')
-PREAMBLE = fh.read()
-fh.close()
-latex_elements = {
-# Additional stuff for the LaTeX preamble.
-'preamble': PREAMBLE,
-}
