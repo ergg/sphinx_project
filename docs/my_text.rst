@@ -41,8 +41,7 @@ Bullet List:
 Und hier nun eine url:
 .. _http://www.ibm.com
 
-.. title::
-   oder das: 
+  oder das: 
 
    *Hervorhebung*
 
@@ -70,3 +69,38 @@ Und hier nun eine url:
 
 .. contents::
         Machen wir mal Inhalt
+
+===============
+ Section Title
+===============
+
+---------------
+ Section Title
+---------------
+
+Section Title
+=============
+
+Section Title
+-------------
+
+Section Title
+`````````````
+
+Section Title
+'''''''''''''
+
+Section Title
+.............
+
+Section Title
+~~~~~~~~~~~~~
+
+Section Title
+*************
+
+Section Title
++++++++++++++
+
+Section Title
+^^^^^^^^^^^^^
