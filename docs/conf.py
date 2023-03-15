@@ -80,3 +80,8 @@ html_theme_options = {
 latex_documents = [
  ('index', 'yourdoc.tex', u'DocName', u'YourName', 'manual'),
 ]
+
+
+latex_elements = { 
+    'maxlistdepth' : '6',
+}
