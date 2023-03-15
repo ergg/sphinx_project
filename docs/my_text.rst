@@ -47,9 +47,10 @@ oder das:
 
    **strong Hervorhebung**
 
-        .. highlights::
-           Der Text ist hervorgehoben
-           komplett ?
+.. highlights::
+
+        Der Text ist hervorgehoben komplett ?
+        Noch mehr text !!!
 
 .. _reStructuredText: https://docutils.sourceforge.io/rst.html
 
