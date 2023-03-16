@@ -99,9 +99,11 @@ latex_documents = [
 ##    ''',
 ##}
 
+#    'extraclassoptions': 'openany,oneside',
+
 latex_engine = 'xelatex'
 latex_elements = {
-    'extraclassoptions': 'openany,oneside',
+    'extraclassoptions': 'openany',
     'maxlistdepth' : '6',
     'fontpkg': r'''
 \setmainfont{DejaVu Serif}
