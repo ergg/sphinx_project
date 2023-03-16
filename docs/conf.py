@@ -101,6 +101,7 @@ latex_documents = [
 
 latex_engine = 'xelatex'
 latex_elements = {
+    'extraclassoptions': 'openany,oneside',
     'maxlistdepth' : '6',
     'fontpkg': r'''
 \setmainfont{DejaVu Serif}
