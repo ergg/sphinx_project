@@ -3,7 +3,7 @@ Mail öffnen
 
 ``Windows Taste`` auf der Tastatur drücken.
 
-Danach ``Datei`` eingeben ::
+Danach ``Datei`` auf der Tastatur eingeben ::
 
         Datei
 
@@ -12,7 +12,7 @@ Danach ``Datei`` eingeben ::
    :align: center
    :scale: 50 %
 
-   Image caption
+   Figure 01
 
 Oeffnen von der Documents Directroy. ::
 
@@ -23,24 +23,26 @@ Oeffnen von der Documents Directroy. ::
    :align: center
    :scale: 50 %
 
-   Image caption
+   Figure 02
 
-Das Verzeichniss öffnen ::
+Das folgende Verzeichniss öffnen ::
 
         Zollingerheim Tierpflege Arbeitstunden
-
-.. figure:: /images/fig_02.png
-   :alt: alt text goes here
-   :align: center
-   :scale: 50 %
-
-   Image caption
-
-Die ``neuste`` Arbeitstunden Datei öffnen:
 
 .. figure:: /images/fig_03.png
    :alt: alt text goes here
    :align: center
    :scale: 50 %
 
-   Image caption
+   Figure 03
+
+Die ``neuste`` Arbeitstunden Datei öffnen:
+
+( Hier wird z.b die Arbeiststunden Datei von dem Februar 2023 geöffnet )
+
+.. figure:: /images/fig_04.png
+   :alt: alt text goes here
+   :align: center
+   :scale: 50 %
+
+   Figure 04
