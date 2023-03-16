@@ -99,23 +99,22 @@ latex_documents = [
 ##    ''',
 ##}
 
-# latex_engine = 'xelatex'
-latex_engine = 'lualatex'
+latex_engine = 'xelatex'
 latex_elements = {
     'maxlistdepth' : '6',
-    'fontenc': '\\usepackage{fontspec}',
-    'fontpkg': '''\
-\\setmainfont{DejaVu Serif}
-\\setsansfont{DejaVu Sans}
-\\setmonofont{DejaVu Sans Mono}''',
-    'geometry': '\\usepackage[vmargin=2.5cm, hmargin=3cm]{geometry}',
-    'preamble': '''\
-\\usepackage[titles]{tocloft}
-\\cftsetpnumwidth {1.25cm}\\cftsetrmarg{1.5cm}
-\\setlength{\\cftchapnumwidth}{0.75cm}
-\\setlength{\\cftsecindent}{\\cftchapnumwidth}
-\\setlength{\\cftsecnumwidth}{1.25cm}''',
-    'fncychap': '\\usepackage[Bjornstrup]{fncychap}',
-    'printindex': '\\footnotesize\\raggedright\\printindex',
+    'fontpkg': r'''
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+''',
+    'preamble': r'''
+\usepackage[titles]{tocloft}
+\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
+\setlength{\cftchapnumwidth}{0.75cm}
+\setlength{\cftsecindent}{\cftchapnumwidth}
+\setlength{\cftsecnumwidth}{1.25cm}
+''',
+    'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
+    'printindex': r'\footnotesize\raggedright\printindex',
 }
 latex_show_urls = 'footnote'
