@@ -83,18 +83,38 @@ latex_documents = [
 
 # Make pdf nice
 # maxlistdepth 6 -> Otherwise Latex is generating error when a pdf is created Erich 2023-03-16
-latex_elements = {
-    'maxlistdepth' : '6',
+## latex_elements = {
+##    'maxlistdepth' : '6',
 # The paper size ('letterpaper' or 'a4paper').
-    'papersize': 'letterpaper',
+##    'papersize': 'letterpaper',
 
 # The font size ('10pt', '11pt' or '12pt').
-    'pointsize': '11pt',
+##    'pointsize': '11pt',
 
 # Additional stuff for the LaTeX preamble.
-    'preamble': r'''
-        \usepackage{charter}
-        \usepackage[defaultsans]{lato}
-        \usepackage{inconsolata}
-    ''',
+##    'preamble': r'''
+##        \usepackage{charter}
+##        \usepackage[defaultsans]{lato}
+##        \usepackage{inconsolata}
+##    ''',
+##}
+
+latex_engine = 'xelatex'
+latex_elements = {
+    'maxlistdepth' : '6',
+    'fontenc': '\\usepackage{fontspec}',
+    'fontpkg': '''\
+\\setmainfont{DejaVu Serif}
+\\setsansfont{DejaVu Sans}
+\\setmonofont{DejaVu Sans Mono}''',
+    'geometry': '\\usepackage[vmargin=2.5cm, hmargin=3cm]{geometry}',
+    'preamble': '''\
+\\usepackage[titles]{tocloft}
+\\cftsetpnumwidth {1.25cm}\\cftsetrmarg{1.5cm}
+\\setlength{\\cftchapnumwidth}{0.75cm}
+\\setlength{\\cftsecindent}{\\cftchapnumwidth}
+\\setlength{\\cftsecnumwidth}{1.25cm}''',
+    'fncychap': '\\usepackage[Bjornstrup]{fncychap}',
+    'printindex': '\\footnotesize\\raggedright\\printindex',
 }
+latex_show_urls = 'footnote'
