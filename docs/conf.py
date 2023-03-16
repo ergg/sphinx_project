@@ -81,7 +81,23 @@ latex_documents = [
  ('index', 'yourdoc.tex', u'DocName', u'YourName', 'manual'),
 ]
 
-
+# Otherwise Latex is generating error when a pdf is created Erich 2023-03-16
 latex_elements = { 
     'maxlistdepth' : '6',
+}
+
+# Make pdf nice
+latex_elements = {
+# The paper size ('letterpaper' or 'a4paper').
+    'papersize': 'letterpaper',
+
+# The font size ('10pt', '11pt' or '12pt').
+    'pointsize': '11pt',
+
+# Additional stuff for the LaTeX preamble.
+    'preamble': r'''
+        \usepackage{charter}
+        \usepackage[defaultsans]{lato}
+        \usepackage{inconsolata}
+    ''',
 }
