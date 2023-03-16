@@ -99,7 +99,8 @@ latex_documents = [
 ##    ''',
 ##}
 
-latex_engine = 'xelatex'
+# latex_engine = 'xelatex'
+latex_engine = 'lualatex'
 latex_elements = {
     'maxlistdepth' : '6',
     'fontenc': '\\usepackage{fontspec}',
