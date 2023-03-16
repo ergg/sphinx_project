@@ -1,13 +1,24 @@
 Mail öffnen
 ===========
 
+``Windows Taste`` auf der Tastatur drücken.
 
+Danach ``Datei`` eingeben ::
 
-Das Mail öffnen und die Datei speichern unter ::
+        Datei
+
+.. figure:: /images/fig_01.png
+   :alt: alt text goes here
+   :align: center
+   :scale: 50 %
+
+   Image caption
+
+Oeffnen von der Documents Directroy. ::
 
         Documents
 
-.. figure:: /images/fig_01.png
+.. figure:: /images/fig_02.png
    :alt: alt text goes here
    :align: center
    :scale: 50 %
@@ -18,7 +29,18 @@ Das Verzeichniss öffnen ::
 
         Zollingerheim Tierpflege Arbeitstunden
 
-danach ::
+.. figure:: /images/fig_02.png
+   :alt: alt text goes here
+   :align: center
+   :scale: 50 %
 
-        speichern
+   Image caption
 
+Die ``neuste`` Arbeitstunden Datei öffnen:
+
+.. figure:: /images/fig_03.png
+   :alt: alt text goes here
+   :align: center
+   :scale: 50 %
+
+   Image caption
