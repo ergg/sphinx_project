@@ -81,13 +81,10 @@ latex_documents = [
  ('index', 'yourdoc.tex', u'DocName', u'YourName', 'manual'),
 ]
 
-# Otherwise Latex is generating error when a pdf is created Erich 2023-03-16
-latex_elements = { 
-    'maxlistdepth' : '6',
-}
-
 # Make pdf nice
+# maxlistdepth 6 -> Otherwise Latex is generating error when a pdf is created Erich 2023-03-16
 latex_elements = {
+    'maxlistdepth' : '6',
 # The paper size ('letterpaper' or 'a4paper').
     'papersize': 'letterpaper',
 
