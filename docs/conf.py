@@ -129,7 +129,6 @@ latex_elements = {
 \setcounter{secnumdepth}{1}
 \setcounter{tocdepth}{1}
 
-\usepackage{tocloft}
 \addtocontents{toc}{\protect\thispagestyle{fancy}}
 ''',
     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
