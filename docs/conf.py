@@ -100,6 +100,11 @@ latex_documents = [
 ##}
 
 #    'extraclassoptions': 'openany,oneside',
+# \usepackage[titles]{tocloft}
+#\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
+#\setlength{\cftchapnumwidth}{0.75cm}
+#\setlength{\cftsecindent}{\cftchapnumwidth}
+#\setlength{\cftsecnumwidth}{1.25cm}
 
 latex_engine = 'xelatex'
 latex_elements = {
@@ -111,11 +116,11 @@ latex_elements = {
 \setmonofont{DejaVu Sans Mono}
 ''',
     'preamble': r'''
-\usepackage[titles]{tocloft}
-\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
-\setlength{\cftchapnumwidth}{0.75cm}
-\setlength{\cftsecindent}{\cftchapnumwidth}
-\setlength{\cftsecnumwidth}{1.25cm}
+\usepackage{xcolor,colortbl}
+\arrayrulecolor{red}
+\usepackage{charter}
+\usepackage[defaultsans]{lato}
+\usepackage{inconsolata}
 ''',
     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
     'printindex': r'\footnotesize\raggedright\printindex',

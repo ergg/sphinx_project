@@ -3,7 +3,7 @@ Mail öffnen
 
 ``Windows Taste`` auf der Tastatur drücken.
 
-Danach ``Datei`` auf der Tastatur eingeben ::
+Danach ``Datei`` auf der Tastatur eintippen. ::
 
         Datei
 
@@ -14,7 +14,7 @@ Danach ``Datei`` auf der Tastatur eingeben ::
 
    Figure 01
 
-Oeffnen von der Documents Directroy. ::
+Oeffnen von dem ``Documents`` Ordner. ::
 
         Documents
 
@@ -25,9 +25,9 @@ Oeffnen von der Documents Directroy. ::
 
    Figure 02
 
-Das folgende Verzeichniss öffnen ::
+Das folgenden Ordner öffnen ::
 
-        Zollingerheim Tierpflege Arbeitstunden
+        Zollingerheim_Tierpflege_Arbeitstunden
 
 .. figure:: /images/fig_03.png
    :alt: alt text goes here
@@ -36,9 +36,8 @@ Das folgende Verzeichniss öffnen ::
 
    Figure 03
 
-Die ``neuste`` Arbeitstunden Datei öffnen:
-
-( Hier wird z.b die Arbeiststunden Datei von dem Februar 2023 geöffnet )
+| Die ``neuste`` Arbeitstunden Datei öffnen:
+| ( z.B. Hier wird die Arbeiststunden Datei von dem Februar 2023 geöffnet )
 
 .. figure:: /images/fig_04.png
    :alt: alt text goes here
