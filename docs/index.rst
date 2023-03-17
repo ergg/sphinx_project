@@ -20,7 +20,7 @@ Hier die Vorbedinungen die erfüllt sein müssen::
    intro*        
    install                
    support
-
+   fig
 
 Indices and tables
 ==================
