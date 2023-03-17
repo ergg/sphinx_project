@@ -109,6 +109,11 @@ latex_documents = [
 #\usepackage{xcolor,colortbl}
 #\arrayrulecolor{red}
 
+#\usepackage[titles]{tocloft}
+#\documentclass{ltxdoc}
+
+#\usepackage[titles]{tocloft}
+
 latex_engine = 'xelatex'
 latex_elements = {
     'extraclassoptions': 'openany',
@@ -119,7 +124,12 @@ latex_elements = {
 \setmonofont{DejaVu Sans Mono}
 ''',
     'preamble': r'''
-\usepackage[titles]{tocloft}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setcounter{secnumdepth}{1}
+\setcounter{tocdepth}{1}
+
+\usepackage{tocloft}
 \cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
 \setlength{\cftchapnumwidth}{0.75cm}
 \setlength{\cftsecindent}{\cftchapnumwidth}
