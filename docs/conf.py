@@ -118,9 +118,6 @@ latex_elements = {
     'preamble': r'''
 \usepackage{xcolor,colortbl}
 \arrayrulecolor{red}
-\usepackage{charter}
-\usepackage[defaultsans]{lato}
-\usepackage{inconsolata}
 ''',
     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
     'printindex': r'\footnotesize\raggedright\printindex',
