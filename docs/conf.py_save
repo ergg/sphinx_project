@@ -81,6 +81,38 @@ latex_documents = [
  ('index', 'yourdoc.tex', u'DocName', u'YourName', 'manual'),
 ]
 
+# Make pdf nice
+# maxlistdepth 6 -> Otherwise Latex is generating error when a pdf is created Erich 2023-03-16
+## latex_elements = {
+##    'maxlistdepth' : '6',
+# The paper size ('letterpaper' or 'a4paper').
+##    'papersize': 'letterpaper',
+
+# The font size ('10pt', '11pt' or '12pt').
+##    'pointsize': '11pt',
+
+# Additional stuff for the LaTeX preamble.
+##    'preamble': r'''
+##        \usepackage{charter}
+##        \usepackage[defaultsans]{lato}
+##        \usepackage{inconsolata}
+##    ''',
+##}
+
+#    'extraclassoptions': 'openany,oneside',
+# \usepackage[titles]{tocloft}
+#\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
+#\setlength{\cftchapnumwidth}{0.75cm}
+#\setlength{\cftsecindent}{\cftchapnumwidth}
+#\setlength{\cftsecnumwidth}{1.25cm}
+
+#\usepackage{xcolor,colortbl}
+#\arrayrulecolor{red}
+
+#\usepackage[titles]{tocloft}
+#\documentclass{ltxdoc}
+
+#\usepackage[titles]{tocloft}
 
 latex_engine = 'xelatex'
 latex_elements = {
@@ -92,11 +124,11 @@ latex_elements = {
 \setmonofont{DejaVu Sans Mono}
 ''',
     'preamble': r'''
-\usepackage[titles]{tocloft}
-\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
-\setlength{\cftchapnumwidth}{0.75cm}
-\setlength{\cftsecindent}{\cftchapnumwidth}
-\setlength{\cftsecnumwidth}{1.25cm}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setcounter{secnumdepth}{1}
+\setcounter{tocdepth}{1}
+\addtocontents{toc}{\protect\thispagestyle{fancy}}
 ''',
     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
     'printindex': r'\footnotesize\raggedright\printindex',

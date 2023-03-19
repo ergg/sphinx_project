@@ -23,7 +23,6 @@ Oeffnen von dem ``Documents`` Ordner. ::
    :align: center
    :scale: 50 %
 
-   Figure 02
 
 Das folgenden Ordner öffnen ::
 
@@ -34,7 +33,6 @@ Das folgenden Ordner öffnen ::
    :align: center
    :scale: 50 %
 
-   Figure 03
 
 | Die ``neuste`` Arbeitstunden Datei öffnen:
 | ( z.B. Hier wird die Arbeiststunden Datei von dem Februar 2023 geöffnet )
@@ -44,4 +42,3 @@ Das folgenden Ordner öffnen ::
    :align: center
    :scale: 50 %
 
-   Figure 04
