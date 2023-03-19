@@ -57,8 +57,8 @@ html_theme_options = {
 }
 html_context = {}
 
-# html_static_path = ['_static']
-# html_css_files = ['css/custom.css']
+html_static_path = ['_static']
+html_css_files = ['css/custom.css']
 # html_logo = '_static/logo.png'
 # html_favicon = "_static/favicon.ico"
 
@@ -86,10 +86,21 @@ latex_engine = 'xelatex'
 latex_elements = {
     'extraclassoptions': 'openany',
     'maxlistdepth' : '6',
+# The paper size ('letterpaper' or 'a4paper').
+    'papersize': 'letterpaper',
+
+# The font size ('10pt', '11pt' or '12pt').
+    'pointsize': '11pt',
+#    % Adjust \\headheight for fancyhdr
+#    \\addtolength{\\headheight}{1.6pt}
+#    \\addtolength{\\topmargin}{-1.6pt}
     'fontpkg': r'''
 \setmainfont{DejaVu Serif}
 \setsansfont{DejaVu Sans}
 \setmonofont{DejaVu Sans Mono}
+% Adjust \headheight for fancyhdr
+\addtolength{\headheight}{1.6pt}
+\addtolength{\topmargin}{-1.6pt}
 ''',
     'preamble': r'''
 \usepackage[titles]{tocloft}
